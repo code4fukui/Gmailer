@@ -18,3 +18,12 @@ const body = "ボディ";
 const res = await mailer.mail(mail, title, body);
 console.log(res);
 ```
+
+## how to get pass
+
+- Googleアカウント、アカウントの管理
+- セキュリティ
+- 2段階認証をON
+- [アプリパスワード](https://myaccount.google.com/apppasswords)を開く
+- アプリ名 Gmailer などと記述
+- アプリパスワードが発行される　"xxxx xxxx xxxx xxxx"
