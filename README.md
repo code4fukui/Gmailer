@@ -21,9 +21,8 @@ console.log(res);
 
 ## how to get pass
 
-- Googleアカウント、アカウントの管理
-- セキュリティ
-- 2段階認証をON
-- [アプリパスワード](https://myaccount.google.com/apppasswords)を開く
-- アプリ名 Gmailer などと記述
-- アプリパスワードが発行される　"xxxx xxxx xxxx xxxx"
+1. [Googleアカウント セキュリティ](https://myaccount.google.com/security)を開く
+2. 2段階認証プロセスを開始する
+3. [アプリパスワード](https://myaccount.google.com/apppasswords)を開く
+4. アプリ名 Gmailer などと記述
+5. アプリパスワードが発行される　"xxxx xxxx xxxx xxxx"
