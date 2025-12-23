@@ -5,7 +5,7 @@ Gmail sender by user and pass (app password)
 ## usage
 
 ```js
-import { Gmailer } from "./Gmailer.js";
+import { Gmailer } from "https://code4fukui.github.io/Gmailer/Gmailer.js";
 
 const user = "xx@gmail.com";
 const pass = "xxxx xxx"; // ←アプリパスワード
