@@ -2,7 +2,7 @@
 
 Gmail sender by user and pass (app password)
 
-## usage
+## Usage
 
 ```js
 import { Gmailer } from "https://code4fukui.github.io/Gmailer/Gmailer.js";
@@ -19,10 +19,14 @@ const res = await mailer.mail(mail, title, body);
 console.log(res);
 ```
 
-## how to get pass
+## How to Get Pass
 
-1. [Googleアカウント セキュリティ](https://myaccount.google.com/security)を開く
-2. 2段階認証プロセスを開始する
-3. [アプリパスワード](https://myaccount.google.com/apppasswords)を開く
-4. アプリ名 Gmailer などと記述
-5. アプリパスワードが発行される　"xxxx xxxx xxxx xxxx"
+1. Open [Google Account Security](https://myaccount.google.com/security)
+2. Start the two-step verification process
+3. Open [App Passwords](https://myaccount.google.com/apppasswords)
+4. Enter the app name, e.g., Gmailer
+5. An app password will be generated: "xxxx xxxx xxxx xxxx"
+
+## License
+
+MIT License
