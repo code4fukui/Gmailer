@@ -16,14 +16,14 @@ Gmailを使ってメールを送信するためのツールです。
 import { Gmailer } from "https://code4fukui.github.io/Gmailer/Gmailer.js";
 
 const user = "xx@gmail.com";
-const pass = "xxxx xxx"; // ←アプリパスワード
+const pass = "xxxx xxxx"; // ←アプリパスワード
 
 const mailer = new Gmailer(user, pass);
 
-const mail = "fukuno@jig.jp";
+const to = "fukuno@jig.jp";
 const title = "test title";
 const body = "ボディ";
-const res = await mailer.mail(mail, title, body);
+const res = await mailer.mail(to, title, body);
 console.log(res);
 ```
 
