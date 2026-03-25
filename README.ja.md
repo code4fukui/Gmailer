@@ -27,6 +27,12 @@ const res = await mailer.mail(to, title, body);
 console.log(res);
 ```
 
+### コンテンツ付きHTMLメールの送信方法
+
+```js
+const res = await mailer.mailHTML(mail, title, html, { "test.jpg": binjpeg });
+```
+
 ## アプリパスワードの取得方法
 
 1. [Googleアカウント セキュリティ](https://myaccount.google.com/security)を開く

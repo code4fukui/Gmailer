@@ -21,6 +21,12 @@ const res = await mailer.mail(mail, title, body);
 console.log(res);
 ```
 
+### HTML with contents
+
+```js
+const res = await mailer.mailHTML(mail, title, html, { "test.jpg": binjpeg });
+```
+
 ## How to Get App Password
 
 1. Open [Google Account Security](https://myaccount.google.com/security)
