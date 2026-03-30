@@ -65,7 +65,7 @@ ${body}`;
 Content-Type: ${mime}
 Content-Transfer-Encoding: base64
 Content-ID: <${fn}>
-Content-Disposition: inline
+Content-Disposition: inline; filename="${fn}"
 
 ${Base64.encode(bin)}
 `;
@@ -73,7 +73,7 @@ ${Base64.encode(bin)}
     }
     c.push("--" + boundary);
     const raw0 = c.join("\n");
-    console.log(raw0);
+    //console.log(raw0);
     const raw = raw0;
     return await this.mailRaw(to, raw);
   }
