@@ -7,8 +7,8 @@ export class Gmailer {
   constructor(user, pass) {
     this.transporter = nodemailer.createTransport({
       host: "smtp.gmail.com",
-      port: 587,
-      secure: false, // ポート587はSTARTTLSなのでfalse
+      //port: 587, secure: false, // ポート587はSTARTTLSなのでfalse、NG
+      port: 465, secure: true, // 587がNGになったのでこちらに変更
       auth: {
         user,
         pass,
