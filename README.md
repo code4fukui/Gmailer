@@ -10,14 +10,14 @@ A Gmail sender that uses your Gmail username and app password.
 import { Gmailer } from "https://code4fukui.github.io/Gmailer/Gmailer.js";
 
 const user = "xx@gmail.com";
-const pass = "xxxx xxx"; // ←App password
+const pass = "xxxx xxxx"; // ←App password
 
 const mailer = new Gmailer(user, pass);
 
-const mail = "fukuno@jig.jp";
+const to = "fukuno@jig.jp";
 const title = "test title";
 const body = "Body";
-const res = await mailer.mail(mail, title, body);
+const res = await mailer.mail(to, title, body);
 console.log(res);
 ```
 
@@ -38,3 +38,7 @@ const res = await mailer.mailHTML(mail, title, html, { "test.jpg": binjpeg });
 ## License
 
 MIT License
+
+---
+
+This README provides a brief overview and usage instructions for the `Gmailer` project, which allows users to send emails using their Gmail username and an application-specific password. The example code demonstrates how to import and use the Gmailer class to send both plain text and HTML-formatted emails with attachments.
