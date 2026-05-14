@@ -3,3 +3,8 @@ sample_multi_test.js
 sample_multi.js
 sample_attached.js
 sample.pdf
+
+# meta-ops cleanup
+.DS_Store
+Thumbs.db
+node_modules/
